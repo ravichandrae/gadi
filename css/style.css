@@ -1,0 +1,24 @@
+.char {
+    font-size:24px;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    margin: -1px 0 0 -1px;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    background: none; 
+  } 
+
+  table {
+    border-collapse: collapse;
+  }
+
+  .blocked-cell {
+      background-color: grey;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
