@@ -2,17 +2,23 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <title>Gadi</title>
         <link rel="stylesheet" href="css/style.css">
         <script type = "text/javascript" src = "js/jquery.js"></script>
     </head>
     <body>
-        <div>
-            <input id="gridSize" type="number" value="" />
-        </div>
-        <script src="js/script.js"></script>
-        <div id="crossword">
+        <div class="container">
+            <input id="gridSize" type="number" value="15" />
 
+            <input type="radio" name="markfill" id="mark" checked="checked" value="mark">Mark
+            <input type="radio" name="markfill" id="fill" value="fill">Fill
+
+            <script src="js/script.js"></script>
+            <div id="crossword">
+            </div>
         </div>
     </body>
 </html>

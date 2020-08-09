@@ -5,8 +5,8 @@
     border: 0;
     padding: 0;
     margin: -1px 0 0 -1px;
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.35em;
+    height: 1.35em;
     text-align: center;
     background: none; 
   } 
@@ -17,6 +17,10 @@
 
   .blocked-cell {
       background-color: grey;
+  }
+
+  .cellNumContainer {
+    font-size:10px;
   }
 
   table, th, td {
